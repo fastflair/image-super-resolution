@@ -113,7 +113,8 @@ There are two ways to install the Image Super-Resolution package:
 
 - Install ISR from PyPI (recommended):
 ```
-pip install ISR
+pip install --no-deps ISR
+pip install tensorflow
 ```
 - Install ISR from the GitHub source:
 ```
