@@ -34,6 +34,9 @@ ISR is compatible with Python 3.6 and is distributed under the Apache 2.0 licens
 - [License](#copyright)
 
 ## Troubleshooting
+### Build h5py wheel
+sudo apt install pkg-config libhdf5-dev
+
 ### Training not delivering good/patchy results
 When training your own model, start with only PSNR loss (50+ epochs, depending on the dataset) and only then introduce GANS and feature loss. This can be controlled by the loss weights argument.
 
